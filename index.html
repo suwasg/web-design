@@ -16,15 +16,23 @@
       .card img{
         height: 250px;
       }
+      .logo-img{
+        height: 50px;
+      }
+      .carousel-item img{
+        height: 90vh;
+        object-fit: cover;
+      }
 
 
     </style>
 </head>
 <body>
-
-    <nav class="navbar navbar-expand-lg bg-heart">
+    <nav class="navbar navbar-expand-lg bg-heart fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand  fw-bold" href="#">BrandG.</a>
+          <a class="navbar-brand  fw-bold" href="#">
+            <img src="/images/logo4.png" alt="LOGO" class="logo-img">
+          </a>
           </a>
         
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -78,10 +86,82 @@
           </div>
         </div>
       </nav>
-   
+      
 
-      <!-- card ends -->
+      <main>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
 
+            <!-- Image Sliders -->
+            <div class="carousel-inner">
+            <!-- Image one-->
+              <div class="carousel-item active">
+                <img src="/images/flowers-1.jpg" class="d-block w-100 object-fit-cover" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="fw-bolder fs-2 text-white">Fifth slide label</h5>
+                  <p class="font-bold fs-4 text-white">Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+
+              <!-- image two -->
+              <div class="carousel-item">
+                <img src="/images/flowers-2.jpg" class="d-block w-100 object-fit-cover" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="fw-bolder fs-2 text-white">Fifth slide label</h5>
+                  <p class="font-bold fs-4 text-white">Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+
+              <!-- Image Three -->
+              <div class="carousel-item">
+                <img src="/images/flowers-3.jpg" class="d-block w-100 object-fit-cover" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="fw-bolder fs-2 text-white">Fifth slide label</h5>
+                  <p class="font-bold fs-4 text-white">Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+
+              <!-- Image Four -->
+              <div class="carousel-item">
+                <img src="/images/flowers-4.jpg" class="d-block w-100 object-fit-cover" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="fw-bolder fs-2 text-white">Fifth slide label</h5>
+                  <p class="font-bold fs-4 text-white">Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+
+              <!-- Image Five -->
+              <div class="carousel-item">
+                <img src="/images/flowers-7108958.webp" class="d-block w-100 object-fit-cover" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="fw-bolder fs-2 text-white">Fifth slide label</h5>
+                    <p class="font-bold fs-4 text-white">Some representative placeholder content for the second slide.</p>
+                  </div>
+              </div>
+            </div>
+
+            <!-- Carousel Controls -->
+           <section>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+           </section>
+          </div>
+    </main>
+    
+    
 
     <div class="container-fluid bg-heart px-4">
         <footer class="py-5">
