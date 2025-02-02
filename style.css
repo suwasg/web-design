@@ -1,3 +1,52 @@
+
+
 .bg-heart{
     background-color: #2F874C;
 }
+
+
+/* product-card */
+.product-card {
+    transition: all 0.3s ease;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    object-fit: cover;
+    height: 350px;
+    transition: all 0.5s ease;
+}
+
+.product-card:hover .product-image {
+    transform: scale(1.05);
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.price {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2F874C;
+}
+
+.btn-custom {
+    background: linear-gradient(45deg, #4d8f63, #2F874C);
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(99, 102, 241, 0.4);
+}
+/* product card ends */
