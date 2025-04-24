@@ -15,11 +15,9 @@
 /* logo */
 .logo-img{
     height: 50px;
-    /* background: #a6f88f; */
-    /* padding: 8px; */
   }
 
-
+  
 /* category */
 
 .circle-img {
@@ -138,6 +136,30 @@
 }
 /* yt video ends */
 
+/* gallery starts */
+.bento-item {
+    height: 200px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.bento-item:hover {
+    transform: scale(1.05);
+}
+
+.bento-tall {
+    height: 410px;
+}
+
+
+.bento-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* gallery ends */
 
 
 /* testimonial starts */
